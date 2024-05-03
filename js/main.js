@@ -89,7 +89,7 @@ window.onload = function(){
                 gsap.set(selector, {
                     rotationX: '-65deg',
                     z: '-500px',
-                    opacity: 1
+                    opacity: 0
                 }),
                 gsap.to(selector, {
                     rotationX:0,
